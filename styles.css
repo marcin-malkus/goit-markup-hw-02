@@ -14,7 +14,7 @@
 body {
   background-color: var(--background-light);
   font-family: var(--main-font);
-  color: var(--font-color-main);
+ // color: var(--font-color-main);
   text-decoration: none;
 }
 .title-one {
