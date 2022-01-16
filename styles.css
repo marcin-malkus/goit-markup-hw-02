@@ -14,18 +14,10 @@
 body {
   background-color: var(--background-light);
   font-family: var(--main-font);
- // color: var(--font-color-main);
+  color: var(--font-color-main);
   text-decoration: none;
 }
-.title-one {
-  font-weight: 900;
-  font-size: 44px;
-  line-height: 1.363;
-  text-align: center;
-  letter-spacing: 0.06em;
-  text-transform: uppercase;
-  color: var(--font-color-light);
-}
+
 .top,
 .footer {
   background-color: var(--background-dark);
@@ -97,6 +89,16 @@ body {
   line-height: 1.5;
   letter-spacing: 0.03em;
   color: var(--font-color-second);
+}
+
+.title-one {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.363;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--font-color-light);
 }
 
 .title-two {
