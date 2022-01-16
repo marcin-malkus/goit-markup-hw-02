@@ -5,50 +5,68 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Studio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
     <header class="header">
-      <nav>
-        <a href=""><span>Web</span>Studio</a>
-        <ul>
-          <li><a href="">Agencja</a></li>
-          <li><a href="">Portfolio</a></li>
-          <li><a href="">Kontakt</a></li>
+      <nav class="nav">
+        <a class="logo" href="index.html"><span class="logo-color">Web</span>Studio</a>
+        <ul class="list">
+          <li><a class="link" href="index.html">Agencja</a></li>
+          <li><a class="link" href="portfolio.html">Portfolio</a></li>
+          <li><a class="link" href="">Kontakty</a></li>
         </ul>
       </nav>
-      <a href="mailto:info@devstudio.com">info@devstudio.com</a>
-      <a href="tel:+48111111111">+48 111 111 111</a>
-      <h1>efektywne rozwiązania dla waszego biznesu</h1>
-      <button type="button">Zamów usługę</button>
+      <a class="link" href="mailto:info@devstudio.com">info@devstudio.com</a>
+      <a class="link" href="tel:+48111111111">+48 111 111 111</a>
     </header>
 
     <main class="main">
+      <section class="top">
+        <h1 class="title-first">efektywne rozwiązania dla waszego biznesu</h1>
+        <button class="button-order" type="button">Zamów usługę</button>
+      </section>
+
       <section class="advantages">
         <article>
-          <h4>lorem ipsum</h4>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia, quibusdam laudantium labore
-          officia accusantium architecto temporibus odit animi consectetur hic.
+          <h4 class="title-four">lorem ipsum</h4>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia, quibusdam laudantium
+            labore officia accusantium architecto temporibus odit animi consectetur hic.
+          </p>
         </article>
         <article>
-          <h4>lorem ipsum</h4>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia, quibusdam laudantium labore
-          officia accusantium architecto temporibus odit animi consectetur hic.
+          <h4 class="title-four">lorem ipsum</h4>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia, quibusdam laudantium
+            labore officia accusantium architecto temporibus odit animi consectetur hic.
+          </p>
         </article>
         <article>
-          <h4>lorem ipsum</h4>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia, quibusdam laudantium labore
-          officia accusantium architecto temporibus odit animi consectetur hic.
+          <h4 class="title-four">lorem ipsum</h4>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia, quibusdam laudantium
+            labore officia accusantium architecto temporibus odit animi consectetur hic.
+          </p>
         </article>
         <article>
-          <h4>lorem ipsum</h4>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia, quibusdam laudantium labore
-          officia accusantium architecto temporibus odit animi consectetur hic.
+          <h4 class="title-four">lorem ipsum</h4>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia, quibusdam laudantium
+            labore officia accusantium architecto temporibus odit animi consectetur hic.
+          </p>
         </article>
       </section>
 
       <section class="activity">
-        <h2>Czym się zajmujemy</h2>
-        <ul>
+        <h2 class="title-two">Czym się zajmujemy</h2>
+        <ul class="list">
           <li>
             <img
               src="./images/office.jpg"
@@ -77,39 +95,41 @@
       </section>
 
       <section class="our-team">
-        <h2>Nasz zespół</h2>
-        <ul>
-          <li>
+        <h2 class="title-two">Nasz zespół</h2>
+        <ul class="list">
+          <li class="team-card">
             <img src="./images/man1.jpg" alt="some man" width="270" height="260" />
-            <h4>John Doe</h4>
-            <p>Product designer</p>
+            <h4 class="name">John Doe</h4>
+            <p class="job">Product designer</p>
           </li>
-          <li>
+          <li class="team-card">
             <img src="./images/woman1.jpg" alt="some woman" width="270" height="260" />
-            <h4>John Doe</h4>
-            <p>Frontend develpoer</p>
+            <h4 class="name">John Doe</h4>
+            <p class="job">Frontend develpoer</p>
           </li>
-          <li>
+          <li class="team-card">
             <img src="./images/man2.jpg" alt="some man" width="270" height="260" />
-            <h4>John Doe</h4>
-            <p>Marketing</p>
+            <h4 class="name">John Doe</h4>
+            <p class="job">Marketing</p>
           </li>
-          <li>
+          <li class="team-card">
             <img src="./images/man3.jpg" alt="some man" width="270" height="260" />
-            <h4>John Doe</h4>
-            <p>UI Designer</p>
+            <h4 class="name">John Doe</h4>
+            <p class="job">UI Designer</p>
           </li>
         </ul>
       </section>
     </main>
 
     <footer class="footer">
-      <a href=""><span>Web</span>Studio</a>
-      <address>
-        <ul>
+      <a class="logo" href=""><span class="logo-color">Web</span>Studio</a>
+      <address class="address">
+        <ul class="list">
           <li>m. Warszawa, Aleje Jerozolimskie 21</li>
-          <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-          <li><a href="tel:+48111111111">+48 111 111 111</a></li>
+          <li>
+            <a class="link" href="mailto:info@devstudio.com">info@devstudio.com</a>
+          </li>
+          <li><a class="link" href="tel:+48111111111">+48 111 111 111</a></li>
         </ul>
       </address>
     </footer>
