@@ -11,6 +11,79 @@
   --second-font: 'Raleway', sans-serif;
 }
 
+body {
+  background-color: var(--background-light);
+  font-family: var(--main-font);
+  color: var(--font-color-main);
+  text-decoration: none;
+}
+
+.top,
+.footer {
+  background-color: var(--background-dark);
+}
+
+.list {
+  list-style: none;
+}
+.link {
+  text-decoration: none;
+}
+.logo-color {
+  color: var(--active);
+}
+
+/* header */
+.nav,
+.header > a {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.142;
+  letter-spacing: 0.02em;
+}
+
+.header > a {
+  color: var(--font-color-second);
+}
+
+.logo {
+  text-decoration: none;
+  font-family: var(--second-font);
+  color: var(--font-color-main);
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.192;
+  letter-spacing: 0.03em;
+}
+.nav-link {
+  color: var(--font-color-main);
+}
+
+.active-link,
+.link:hover,
+.link:focus {
+  color: var(--active);
+}
+
+/* footer */
+.footer > .logo {
+  color: var(--font-color-light);
+}
+
+.address,
+.address a {
+  color: var(--font-color-light-opacity);
+  font-size: 14px;
+  line-height: 1.5;
+  font-style: normal;
+  letter-spacing: 0.03em;
+}
+.address,
+.list + li {
+  color: var(--font-color-light);
+}
+
+/* main */
 .advantages p {
   font-size: 14px;
   line-height: 1.5;
@@ -18,9 +91,14 @@
   color: var(--font-color-second);
 }
 
-.top,
-.footer {
-  background-color: var(--background-dark);
+.title-one {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.363;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--font-color-light);
 }
 
 .title-two {
@@ -31,27 +109,19 @@
   letter-spacing: 0.03em;
 }
 
-body {
-  background-color: var(--background-light);
-  font-family: var(--main-font);
-  color: var(--font-color-main);
-  text-decoration: none;
-}
-
-.title-first {
-  font-weight: 900;
-  font-size: 44px;
-  line-height: 1.363;
-  text-align: center;
-  letter-spacing: 0.06em;
+.title-four {
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.142;
+  letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: var(--font-color-light);
 }
 
 .button-order {
   width: 200px;
   height: 50px;
-  background: var(--active);
+  background-color: var(--active);
+  color: var(--font-color-light);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
   font-weight: bold;
@@ -83,59 +153,6 @@ body {
   color: var(--font-color-second);
 }
 
-.title-four {
-  font-weight: bold;
-  font-size: 14px;
-  line-height: 1.142;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-}
-.nav,
-.header > a {
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.142;
-  letter-spacing: 0.02em;
-}
-.header > a {
-  color: var(--font-color-second);
-}
-.list {
-  list-style: none;
-}
-
-.logo {
-  text-decoration: none;
-  font-family: var(--second-font);
-  color: var(--font-color-main);
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 1.192;
-  letter-spacing: 0.03em;
-}
-.footer > .logo {
-  color: var(--font-color-light);
-}
-.logo-color {
-  color: var(--active);
-}
-.link {
-  text-decoration: none;
-}
-
-.link:visited {
-  color: var(--font-color-main);
-}
-
-.link:hover,
-.link:focus {
-  color: var(--active);
-}
-
-.link:active {
-  color: var(--active);
-}
-
 .button {
   border: none;
   border-radius: 4px;
@@ -149,10 +166,7 @@ body {
   letter-spacing: 0.03em;
   cursor: pointer;
 }
-.button-order {
-  background-color: var(--active);
-  color: var(--font-color-light);
-}
+
 .button:hover,
 .button:focus {
   background-color: var(--active);
@@ -160,19 +174,6 @@ body {
 }
 .button:active {
   background-color: var(--active);
-  color: var(--font-color-light);
-}
-
-.address,
-.address a {
-  color: var(--font-color-light-opacity);
-  font-size: 14px;
-  line-height: 1.5;
-  font-style: normal;
-  letter-spacing: 0.03em;
-}
-.address,
-.list + li {
   color: var(--font-color-light);
 }
 
