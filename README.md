@@ -1,3 +1,3 @@
-# goit-markup-hw-01
+# goit-markup-hw-02
 https://marcin-malkus.github.io/goit-markup-hw-02/
 https://github.com/marcin-malkus/goit-markup-hw-02
