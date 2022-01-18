@@ -1,5 +1,6 @@
 :root {
-  --background-light: #e5e5e5;
+  --background-header: #ffffff;
+  --background-team: #f5f4fa;
   --background-dark: hsl(235, 10%, 21%);
   --background-button: #f5f4fa;
   --active: #2196f3;
@@ -9,16 +10,16 @@
   --font-color-light-opacity: rgba(255, 255, 255, 0.6);
   --main-font: 'Roboto', sans-serif;
   --second-font: 'Raleway', sans-serif;
+  --ls-font14px: 0.03em;
 }
 
 body {
-  background-color: var(--background-light);
   font-family: var(--main-font);
   color: var(--font-color-main);
   text-decoration: none;
 }
 
-.top,
+.title,
 .footer {
   background-color: var(--background-dark);
 }
@@ -34,12 +35,15 @@ body {
 }
 
 /* header */
+.header {
+  background-color: var(--background-header);
+}
 .nav,
 .header > a {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.142;
-  letter-spacing: 0.02em;
+  letter-spacing: var(--ls-font14px);
 }
 
 .header > a {
@@ -76,7 +80,7 @@ body {
   font-size: 14px;
   line-height: 1.5;
   font-style: normal;
-  letter-spacing: 0.03em;
+  letter-spacing: var(--ls-font14px);
 }
 .address,
 .list + li {
@@ -84,14 +88,19 @@ body {
 }
 
 /* main */
+
+.our-team {
+  background-color: var(--background-team);
+}
+
 .advantages p {
   font-size: 14px;
   line-height: 1.5;
-  letter-spacing: 0.03em;
+  letter-spacing: var(--ls-font14px);
   color: var(--font-color-second);
 }
 
-.title-one {
+.main-title {
   font-weight: 900;
   font-size: 44px;
   line-height: 1.363;
@@ -109,11 +118,11 @@ body {
   letter-spacing: 0.03em;
 }
 
-.title-four {
+.advantages-article-title {
   font-weight: bold;
   font-size: 14px;
   line-height: 1.142;
-  letter-spacing: 0.03em;
+  letter-spacing: var(--ls-font14px);
   text-transform: uppercase;
 }
 
